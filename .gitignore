@@ -80,4 +80,5 @@ crashlytics-build.properties
 fabric.properties
 
 .env
-.docs
+docs
+node_modules
