@@ -1,5 +1,5 @@
 {
-  "name": "js-redis-key-store",
+  "name": "@botmatic/js-redis-key-store",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
