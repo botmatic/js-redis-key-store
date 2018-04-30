@@ -87,7 +87,7 @@ const _saveIds = async (storage, integrationId, botmaticId, extId) => {
   const botmaticKey = buildBotmaticKey(integrationId, botmaticId)
   const externalKey = buildExternalKey(integrationId, extId)
 
-  if (botmaticKey && externalKey) {
+  if (botmaticKey && externalKey && botmaticId && extId) {
 
     const promises = [
       await _saveId(storage, botmaticKey, extId),
